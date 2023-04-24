@@ -1,0 +1,17 @@
+---
+title: "PSTAT 126 Project"
+output: html_document
+date: "2023-04-24"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r cars}
+performance <- read.csv('C:/Users/filto/Downloads/student/student-por.csv', header=TRUE, stringsAsFactors=FALSE, sep=';')
+```
+
+## Check independence of random variables
